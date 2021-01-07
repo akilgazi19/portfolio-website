@@ -286,10 +286,10 @@ nav ul li a:hover::after{
   
   .grid-item {
       display: inline-block;
-      height: 280px;
+      height: 260px;
       overflow: hidden;
       text-align: center;
-      width: 380px;
+      width: 370px;
       margin: 1%;
   }
   .grid-item img{

@@ -99,6 +99,10 @@
     .filter-text h3{
         margin-bottom: 1rem;
     }
+    .grid-item {
+        height: 240px;
+        width: 340px;
+    }
     .working-place{
         justify-content: space-around;
     }

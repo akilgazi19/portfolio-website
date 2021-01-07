@@ -141,3 +141,11 @@
         height: 150px;
     }
 }
+
+@media screen and (min-width: 1550px) {
+    
+    .grid-item {
+        height: 400px;
+        width: 500px;
+    }
+}

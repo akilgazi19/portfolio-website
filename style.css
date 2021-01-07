@@ -35,7 +35,7 @@ h3{
     font-weight: 500;
 }
 p,div,a,ul,li{
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     font-weight: 500;
 }
 .btn-lg{
@@ -47,7 +47,7 @@ p,div,a,ul,li{
     border-radius: 10px;
     background-color: #36C5BA;
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     box-shadow: 0px 10px 40px rgba(54, 197, 186, 0.25);
     cursor: pointer;
 }
@@ -62,17 +62,18 @@ p,div,a,ul,li{
     width: 50px;
     height: 50px;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 30%;
     background-color: transparent;
-    color:#36C5BA;
+    color:#0a3d3f61;
     cursor: pointer;
-    border: 2px solid #36C5BA;
-    box-shadow: 0px 10px 40px rgba(54, 197, 186, 0.25);
+    border: 2px solid #0a3d3f61;
+    /* box-shadow: 0px 10px 40px rgba(54, 197, 186, 0.25); */
 }
 .btn-sm-border:hover{
     background-color: #36C5BA;
     color: #FFFFFF;
     transition: .5s;
+    border: 2px solid#36C5BA;
 }
 .btn-sm-border:focus{
     outline: none;
@@ -102,7 +103,6 @@ header{
 /* Navigation */
 
 .nav-container{
-	max-width: 120rem;
 	width: 90%;
     margin: 0 auto;
     padding: 1rem 0;
@@ -152,7 +152,6 @@ nav{
 nav ul{
 	display: flex;
 }
-
 nav ul li{
 	list-style: none;
 	transform: translateX(100rem);
@@ -281,7 +280,6 @@ nav ul li a:hover::after{
 
 #container {
     margin: auto;
-    width: 90%;
   }
   
   .grid-item {
@@ -400,7 +398,6 @@ nav ul li a:hover::after{
   .overlay-text {
     position: absolute; 
     bottom: 0; 
-    /* background: rgb(0, 0, 0); */
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     width: 100%;
@@ -455,7 +452,7 @@ nav ul li a:hover::after{
     text-align: center;
 }
 .number img{
-    max-width: 50%;
+    max-width: 40%;
     width: 100%;
     margin: 10% 0;
 }

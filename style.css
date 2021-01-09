@@ -41,7 +41,6 @@ p,div,a,ul,li{
 .btn-lg{
     width: 20vw;
     height: 10vh;
-    font-size: 18px;
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
@@ -64,9 +63,9 @@ p,div,a,ul,li{
     font-size: 18px;
     border-radius: 30%;
     background-color: transparent;
-    color:#0a3d3f61;
+    color:#c1c1c1;
     cursor: pointer;
-    border: 2px solid #0a3d3f61;
+    border: 2px solid #c1c1c1;
 }
 .btn-sm-border:hover{
     background-color: #36C5BA;
@@ -353,7 +352,7 @@ nav ul li a:hover::after{
       line-height: 31px;
       color: #36C5BA;
       transition: 0.8s;
-      box-shadow: -1px 1px 11px rgba(0,0,0,.1);
+      box-shadow: 0px 10px 40px rgba(54, 197, 186, 0.25);
       border-radius: 25px;
       background-color: transparent;
       text-decoration:none;
@@ -363,12 +362,12 @@ nav ul li a:hover::after{
   .isotope-pager a:hover{
     color: #FFFFFF;
     background-color: #36C5BA;
-    box-shadow: -1px 1px 10px 3px rgba(0,0,0,.1);
+    box-shadow: 0px 10px 40px rgba(54, 197, 186, 0.25);
   }
   
   .isotope-pager .active{
       color: #FFFFFF !important;
-      box-shadow: -1px 1px 10px 5px rgba(0,0,0,.1);
+      box-shadow: 0px 10px 40px rgba(54, 197, 186, 0.25);
       border-radius: 25px;
       background-color: #36C5BA;
   }
@@ -414,7 +413,6 @@ nav ul li a:hover::after{
     opacity: 1;
   }
   
-  
 
 /* Design career */
 
@@ -428,7 +426,7 @@ nav ul li a:hover::after{
     align-items: center;
     justify-content: space-between;
     color: #FFFFFF;
-    padding: 3% 3%;
+    padding: 0% 3%;
 }
 .career-text{
     flex-basis: 50%;
@@ -463,12 +461,11 @@ nav ul li a:hover::after{
 }
 marquee{
     max-width: 100%;
-    max-height: 400px;
+    max-height: 480px;
 }
 marquee img{
     width: 100%;
-    height: auto;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
 }
 #marquee-sm{
     display: none;

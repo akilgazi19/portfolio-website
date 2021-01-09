@@ -32,7 +32,13 @@
     #marquee-lg{
         display: none;
     }
-
+    marquee{
+        max-height: 150px;
+    }
+    marquee img{
+        width: 250px;
+        height: 150px;
+    }
 
     .menu-toggle, .logo-toggle{
 		display: block;
@@ -132,13 +138,16 @@
     }
   }
 
-  @media screen and (max-width: 950px) {
+  @media screen and (min-width: 701px) and (max-width: 950px) {
     marquee{
         max-height: 150px;
     }
     marquee img{
         width: 250px;
         height: 150px;
+    }
+    .career-container{
+        padding: 2% 3%;
     }
 }
 

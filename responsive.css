@@ -27,6 +27,7 @@
     
     #marquee-sm{
         display: block;
+        margin-top: 5%;
     }
     #marquee-lg{
         display: none;

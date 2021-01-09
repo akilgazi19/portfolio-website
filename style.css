@@ -463,7 +463,7 @@ nav ul li a:hover::after{
 }
 marquee{
     max-width: 100%;
-    height: 400px;
+    max-height: 400px;
 }
 marquee img{
     width: 100%;
